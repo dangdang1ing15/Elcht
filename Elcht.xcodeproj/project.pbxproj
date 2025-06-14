@@ -35,16 +35,6 @@
 			path = Elcht;
 			sourceTree = "<group>";
 		};
-		0981E9262DFDCD0200874A4F /* ElchtTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ElchtTests;
-			sourceTree = "<group>";
-		};
-		0981E9302DFDCD0200874A4F /* ElchtUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ElchtUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				0981E9182DFDCD0100874A4F /* Elcht */,
-				0981E9262DFDCD0200874A4F /* ElchtTests */,
-				0981E9302DFDCD0200874A4F /* ElchtUITests */,
 				0981E9172DFDCD0100874A4F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				0981E9252DFDCD0200874A4F /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				0981E9262DFDCD0200874A4F /* ElchtTests */,
-			);
 			name = ElchtTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				0981E92F2DFDCD0200874A4F /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				0981E9302DFDCD0200874A4F /* ElchtUITests */,
 			);
 			name = ElchtUITests;
 			packageProductDependencies = (
